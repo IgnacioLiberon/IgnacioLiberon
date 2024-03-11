@@ -1,0 +1,20 @@
+table, tr, td {
+  border: 1px solid black;
+  border-collapse:collapse;
+}
+
+.fonts{
+    font-family: "Verdana";
+}
+
+p {
+    font-size: 120%;
+}
+
+h2 {
+    color: crimson;
+}
+
+button:hover {
+    background-color: lightcyan;
+}

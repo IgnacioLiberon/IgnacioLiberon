@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Lab 1</h1>
+
+    <h2 class="fonts">Name:</h2>
+    <p>Ignacio Liberón</p>
+    <h2 class="fonts">Major:</h2>
+    <p>Ingenieria Civil en Ciencias de la Computación</p>
+    <h2 class="fonts">Year of University Enrollment:</h2>
+    <p>2020</p>
+    
+    <a href="https://github.com/IgnacioLiberon/IgnacioLiberon">Link to my GitHub</a>
+
+    <h2 class="fonts">Personal Summary</h2>
+
+    <p>Born in 2001, I've always had a passion for computers. As I grew up, my interest in machines and how they work intensified, 
+        particularly with the rise of video games. This led me to pursue a career in programming. 
+        I initially attempted to enter game development at a young age but found it challenging. 
+        I decided to start from the basics and, fortunately, discovered this career path in 2019. 
+        I began my journey by entering "Bachillerato" in 2020.
+    </p>
+
+    <table style="background-color: lightblue; margin-bottom: 20px;">
+        <tr class="fonts">
+            <td style="font-weight: bold;">Skill</td>
+            <td style="font-weight: bold;">Level</td>
+        </tr>
+        
+        <tr>
+            <td>Python</td>
+            <td>Expert</td>
+        </tr>
+
+        <tr>
+            <td>JavaScript</td>
+            <td>Basic</td>
+        </tr>
+
+        <tr>
+            <td>HTML/CSS</td>
+            <td>Basic</td>
+        </tr>
+
+        <tr>
+            <td>Git</td>
+            <td>Advanced</td>
+        </tr>
+
+        <tr>
+            <td>Excel</td>
+            <td>Advanced</td>
+        </tr>
+
+        <tr>
+            <td>SQL</td>
+            <td>Advanced</td>
+        </tr>
+
+        <tr>
+            <td>Ruby</td>
+            <td>None</td>
+        </tr>
+
+        <tr>
+            <td>English</td>
+            <td>Expert</td>
+        </tr>
+
+        <tr>
+            <td>Spanish</td>
+            <td>Native</td>
+        </tr>
+    </table>
+
+    <h2 class="fonts">Button Section</h2>
+
+    <p id="replace_with_value">Replace this text with your entered value</p>
+
+    <input type="text" placeholder="Enter value" id="input_text">
+    <button onclick="dosomething()" id="button">CHANGE IT!</button>
+
+    <script>
+        function dosomething(){
+          newText = document.getElementById("input_text").value
+          document.getElementById("replace_with_value").innerText = newText
+        }
+    </script>
+
+</body>
+</html>
