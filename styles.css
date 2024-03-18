@@ -1,20 +1,27 @@
 table, tr, td {
   border: 1px solid black;
   border-collapse:collapse;
+  font-size: 14px;
+  padding: 0.25rem;
 }
 
 .fonts{
-    font-family: "Verdana";
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
 }
 
 p {
     font-size: 120%;
 }
 
-h2 {
+h2, h1 {
     color: crimson;
 }
 
+
 button:hover {
-    background-color: lightcyan;
+    background-color: lightcoral;
 }
+
